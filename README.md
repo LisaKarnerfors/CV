@@ -1,2 +1,2 @@
 # CV
-Mitt CV för LIA-ansökningar
+Skapat mitt CV med HTML & CSS
