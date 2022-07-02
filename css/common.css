@@ -72,23 +72,16 @@ h3 {
     color: grey;
 }
 
-/* Se över dessa */
-#span2 {
-    padding-left: 135px;
-}
-
-#span1 { 
-    padding-left: 335px; 
-}
-
 .h4 {
-    margin-top: 0;
-    font-size: 12px;
+    display: flex;
+    margin-top: 5;
+    font-size: 14px;
     font-style: italic;
     font-weight: 500;
     color: grey;
-    padding-left: 100px; 
+    line-height: 2; 
 }
+
 
 #text {
     margin-bottom: 30px;
@@ -171,17 +164,6 @@ li {
 }
 
 
-@media only screen and (max-width: 1250px) {
-
-    .h4 {
-        display: flex;
-        justify-content: flex-start;
-        padding: 0px;
-        line-height: 1.5;
-    }
-
-}
-
 @media only screen and (max-width: 1150px) {
 
     aside {
@@ -189,7 +171,7 @@ li {
     }  
 
     .h4 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     section {
@@ -285,9 +267,11 @@ li {
 
     .links-contact {
         display: flex;
-        position: absolute;
-        left: 30px;
-        top: 255px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0px;
+        top: 20px; 
     }
 
     h1 {
@@ -304,20 +288,15 @@ li {
         display: none
     }
 
-    .fa-at:before, .fa-phone:before {
-        padding-left: 10px;
+    .fa {
+        margin-left: 10px;
     }
+}
 
-    a:link, .a:visited {
-        padding-left: 10px;
-    } 
+@media only screen and (max-width: 600px) {
 
-    #span2 {
-        padding-left: 0px;
-    }
-    
-    #span1 { 
-        padding-left: 0px; 
+    a {
+        font-size: 10px;
     }
 
 }
